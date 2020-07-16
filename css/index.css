@@ -1,0 +1,125 @@
+@font-face {
+  font-family: 'icomoon';
+  src: url('../fonts/icomoon.eot?tomleg');
+  src: url('../fonts/icomoon.eot?tomleg#iefix') format('embedded-opentype'), url('../fonts/icomoon.ttf?tomleg') format('truetype'), url('../fonts/icomoon.woff?tomleg') format('woff'), url('../fonts/icomoon.svg?tomleg#icomoon') format('svg');
+  font-weight: normal;
+  font-style: normal;
+  font-display: block;
+}
+.w {
+  width: 1226px;
+}
+.mi_nav {
+  height: 40px;
+  background-color: #333333;
+}
+.mi_nav .nav_center {
+  height: 40px;
+  margin: 0 auto;
+}
+.mi_nav .nav_center .mi_navL {
+  float: left;
+}
+.mi_nav .nav_center .mi_navL li {
+  float: left;
+  line-height: 40px;
+}
+.mi_nav .nav_center .mi_navL li a {
+  margin: 0 10px;
+}
+.mi_nav .nav_center .mi_navL li a:hover {
+  color: #FFF;
+}
+.mi_nav .nav_center .mi_navR {
+  float: right;
+}
+.mi_nav .nav_center .mi_navR .navR {
+  float: left;
+  margin-right: 60px;
+}
+.mi_nav .nav_center .mi_navR .navR li {
+  float: left;
+  line-height: 40px;
+  padding: 0 10px;
+}
+.mi_nav .nav_center .mi_navR .mi_car {
+  position: relative;
+  float: left;
+}
+.mi_nav .nav_center .mi_navR .mi_car:hover div {
+  height: 100px;
+}
+.mi_nav .nav_center .mi_navR .mi_car a {
+  display: inline-block;
+  width: 120px;
+  height: 40px;
+  line-height: 40px;
+  text-align: center;
+  background-color: #424242;
+}
+.mi_nav .nav_center .mi_navR .mi_car a::before {
+  content: "\e93a";
+  font-family: "icomoon";
+  font-size: 12px;
+}
+.mi_nav .nav_center .mi_navR .mi_car div {
+  position: absolute;
+  right: 0;
+  width: 316px;
+  height: 0;
+  text-align: center;
+  line-height: 100px;
+  background-color: #fff;
+  box-shadow: -2px 2px 3px rgba(200, 200, 200, 0.5);
+  transition: height 0.5s;
+  overflow: hidden;
+  z-index: 2;
+}
+.mi_hd {
+  margin: 0 auto;
+}
+.mi_hd .mi_hd_top {
+  position: relative;
+  height: 100px;
+  background-color: pink;
+}
+.mi_hd .mi_hd_top .left {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  width: 55px;
+  height: 55px;
+  overflow: hidden;
+}
+.mi_hd .mi_hd_top .left ul {
+  position: absolute;
+  width: 110px;
+}
+.mi_hd .mi_hd_top .left ul a {
+  position: absolute;
+  left: -55px;
+  transition: all 0.3s;
+}
+.mi_hd .mi_hd_top .left ul a::before {
+  float: left;
+  content: '';
+  width: 55px;
+  height: 55px;
+  background: url("../images/logo.png") no-repeat;
+}
+.mi_hd .mi_hd_top .left ul a::after {
+  float: left;
+  content: '';
+  width: 55px;
+  height: 55px;
+  background: url("../images/logo.png") no-repeat;
+}
+.mi_hd .mi_hd_top .left ul:hover a {
+  left: 0;
+}
+.mi_hd .mi_hd_top .center {
+  float: left;
+}
+.mi_hd .mi_hd_top .center li {
+  float: left;
+}
